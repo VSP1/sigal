@@ -139,7 +139,7 @@ def process_image(filepath, outpath, settings):
     outname = os.path.join(outpath, filename)
     ext = os.path.splitext(filename)[1]
 
-    if ext in ('.jpg', '.jpeg', '.JPG', '.JPEG'):
+    if ext in ('.jpg', '.jpeg', '.JPG', '.JPEG', '.gif', '.GIF'):
         options = settings['jpg_options']
     elif ext == '.png':
         options = {'optimize': True}

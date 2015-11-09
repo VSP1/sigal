@@ -1,6 +1,8 @@
 Sigal - Simple Static Gallery Generator
 =======================================
 
+A personal fork for simple gif support.
+
 .. image:: https://secure.travis-ci.org/saimn/sigal.png?branch=master
    :target: https://travis-ci.org/saimn/sigal
    :alt: Travis-ci: continuous integration status.
